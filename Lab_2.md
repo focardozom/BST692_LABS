@@ -8,15 +8,13 @@
 
 Import data, create a table and reactable in Shiny 
 
-
 #### Step 1
 
-Open the project *Shiny_labs* on RstudioCloud. 
+Open the project *Shiny_labs* on Rstudio.Cloud. 
 
 #### Step 2
 
 Clone this GitHub repo https://github.com/focardozom/BST692_LABS
-
 
 ![](img/img0.png)
 
@@ -26,9 +24,9 @@ Open the `app.R` file
 
 #### Step 4
 
-#### <mark>Go to server:</mark>
+Import the `Titanic` data into your shiny.
 
-Import the `Titanic` data into your shiny. Save the data into an object called 'the_data'. **Be aware that the `Titanic` data set is in weighted format**. 
+Save the data into an object called 'the_data'. **Be aware that the `Titanic` data set is in weighted format**.  To make analyses easier, you want to convert the data set to have one record per person.
 
 > `the_data <- ???`
 
@@ -41,8 +39,9 @@ Import the `Titanic` data into your shiny. Save the data into an object called '
 
 #### Step 5
 
+#### <mark>Go to server:</mark>
 
-Create a `reactable` object to display the data set. 
+In your server, create a `reactable` object to display the data set. 
 
 It should look like this:
 
@@ -57,7 +56,7 @@ It should look like this:
 
 #### Step 6
 
-Create a table object to display the count of passanger for each class and crew.
+In your server, create a table object to display the count of passengers for each class and crew.
 
 It should look like this:
 
@@ -75,7 +74,7 @@ It should look like this:
 
 #### <mark>Go to UI:</mark>
 
-Create an output object of class `table`. 
+In your UI, create an output object of class `table`. 
 
 Hints:
 
@@ -86,7 +85,7 @@ Hints:
 #### Step 8
 
 
-Create an output object of class `reactable`
+In your UI, create an output object of class `reactable`
 
 Hints:
 
