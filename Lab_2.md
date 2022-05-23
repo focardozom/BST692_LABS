@@ -97,7 +97,7 @@ Save the app.R file
 
 #### Step 10
 
-Click `Run app` bottom to deploy your shiny app. 
+Click `Run app` button to deploy your shiny app. 
 
 
 
