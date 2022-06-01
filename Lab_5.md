@@ -18,7 +18,7 @@ In your UI, create a selectizeInput.
 
 Hint: 
 
-> You can use in choice option "Yes"=1, "No"=0.
+> You can use in choice option "Yes"="1", "No"="0". 
 
 #### Step 2
 
