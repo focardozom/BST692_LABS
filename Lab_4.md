@@ -103,6 +103,7 @@ glm(Survived ~ Predictor, data=???, family = "binomial") |>
 **Hint:**
 
 > This is an essential part of reactive objects: `()` 
+> Use a render function to conect outputs and UI...
 
 #### Step 8
 
